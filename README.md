@@ -37,10 +37,9 @@ Design for failure | Operability first | Real-time insights | ISO-8583 without t
 ---
 
 <p align="center">
-  <img src="assets/hero.png" alt="System Design · SRE · Data/AI" width="720" />
+  <img src="assets/A_2D_digital_graphic_banner_is_presented_in_landsc.png" alt="Nasir Khani — System Design · SRE · Data/AI (Payments)" width="720" />
 </p>
 
-<!-- Badges (نمونه) -->
 <p align="center">
   <a href="https://github.com/<username>/iso8583-streaming-pipeline/actions">
     <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/<username>/iso8583-streaming-pipeline/ci.yml?label=iso8583%20CI">
