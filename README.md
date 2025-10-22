@@ -37,7 +37,7 @@ Design for failure | Operability first | Real-time insights | ISO-8583 without t
 ---
 
 <p align="center">
-  <img src="assets/A_2D_digital_graphic_banner_is_presented_in_landsc.png" alt="Nasir Khani — System Design · SRE · Data/AI (Payments)" width="720" />
+  <img src="assets/system-architecture-banner.png" alt="Nasir Khani — System Design · SRE · Data/AI (Payments)" width="720" />
 </p>
 
 <p align="center">
