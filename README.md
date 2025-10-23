@@ -1,51 +1,41 @@
-<h1 align="center">Nasir Khani — System Designer · SRE · Data/AI (Payments)</h1>
+<h1 align="center">Nasir Khani — SRE · System Design · DataOps · AI for Ops</h1>
+<p align="center">Reliability first · Operability · Observability · Automation</p>
 
 <p align="center">
-Design for failure | Operability first | Real-time insights | ISO-8583 without tears
+  <img src="assets/sre-dataops-cover.png" alt="SRE · System Design · DataOps · AI for Ops" width="880" />
 </p>
 
 ---
 
 ### Focus
-- **System Design & SRE:** SLO/SLA, incident response, runbooks, reliability patterns
-- **Payments / ISO-8583:** parsing, routing, reconciliation, decline analytics
-- **Data/AI for Ops:** streaming (Kafka/Flink), ClickHouse/Pinot, anomaly detection, local LLM for logs
-
-### Core skills
-`Linux` · `Networking` · `PostgreSQL` · `Kafka` · `Airflow` · `Zabbix` · `Grafana` · `ClickHouse` · `Ansible` · `Terraform` · `Python/Go` · `C4/ADR`
+- **SRE:** SLO/SLA management, incident response, safe change practices, runbooks
+- **DataOps:** log/metrics collection, simple and maintainable pipelines, data quality
+- **AI for Ops:** local models for log summarization and knowledge retrieval (air-gapped friendly)
 
 ### Selected work (pinned)
-- **iso8583-streaming-pipeline** → synthetic load → Kafka → Flink/ksqlDB → ClickHouse → Grafana (latency/decline-rate)
-- **zbx-alert-correlator** → reduce noisy alerts via rule-based correlation + tests
-- **airflow-runbook-automation** → codified ops (restart/drain/failover) as DAGs
-- **observability-clickhouse-stack** → logs/metrics → ClickHouse, SLO dashboards
-- **local-llm-ops-assistant** → RAG over ops logs, fully offline
-- **c4-bank-ops-architecture** → C4 models and ADRs for payment ops
+- **sre-lab-slos** — sample SLOs, error budget math, burn-rate alerts, Grafana dashboard
+- **runbook-automation** — small, reliable scripts/DAGs for repetitive ops tasks (restart, health checks, log sweep)
+- **obs-mini-stack** — Vector/Filebeat → ClickHouse → Grafana; quick queries for latency and error-rate
+- **postgres-ops-notes** — backup/restore, vacuum/ANALYZE checklist, minimal monitoring guidance
+- **zabbix-ruleset-examples** — example templates/triggers/discovery, severity mapping, basic correlation
+- **ai-ops-notebooks-lite** — lightweight notebooks for local log summarization; before/after examples
 
 ### How I work
-- Trunk-based, small PRs, tests before merge  
-- Runbooks + postmortems + SLOs as first-class artifacts  
-- Threat models + CodeQL + secret scanning by default
-
-### Talks/Docs
-- Coming soon: “Operability patterns for ISO-8583 in air-gapped environments”
+Trunk-based development, small PRs with tests, runbooks before on-call, concise docs people actually use.  
+Security by default: CodeQL, secret scanning, Dependabot, signed commits, branch protection.
 
 ### Contact
-- 📧 `khani.nasir@gmail.com`  
-- 🌐 `https://www.linkedin.com/in/nasirkhani`
+📧 khani.nasir@gmail.com  
+🌐 <add your site or LinkedIn here>
 
 ---
 
 <p align="center">
-  <img src="assets/system-architecture-banner.png" alt="Nasir Khani — System Design · SRE · Data/AI (Payments)" width="720" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/<username>/iso8583-streaming-pipeline/actions">
-    <img alt="CI" src="https://img.shields.io/github/actions/workflow/status/<username>/iso8583-streaming-pipeline/ci.yml?label=iso8583%20CI">
+  <img alt="Profile updated" src="https://img.shields.io/github/last-commit/nasirkhani/nasirkhani?label=profile%20updated" />
+  <a href="https://github.com/nasirkhani/sre-lab-slos/actions">
+    <img alt="SRE CI" src="https://img.shields.io/github/actions/workflow/status/nasirkhani/sre-lab-slos/ci.yml?label=SRE%20CI">
   </a>
-  <a href="https://github.com/<username>/zbx-alert-correlator/actions">
-    <img alt="CodeQL" src="https://img.shields.io/github/actions/workflow/status/<username>/zbx-alert-correlator/codeql.yml?label=zbx%20CodeQL">
+  <a href="https://github.com/nasirkhani/obs-mini-stack/actions">
+    <img alt="CodeQL" src="https://img.shields.io/github/actions/workflow/status/nasirkhani/obs-mini-stack/codeql.yml?label=CodeQL">
   </a>
-  <img alt="Last update" src="https://img.shields.io/github/last-commit/<username>/<username>?label=profile%20updated">
 </p>
