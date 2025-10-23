@@ -26,7 +26,7 @@ Security by default: CodeQL, secret scanning, Dependabot, signed commits, branch
 
 ### Contact
 📧 khani.nasir@gmail.com  
-🌐 <www.linkedin.com/in/nasirkhani>
+🌐 www.linkedin.com/in/nasirkhani
 
 ---
 
