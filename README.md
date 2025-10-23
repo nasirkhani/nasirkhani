@@ -1,9 +1,9 @@
 <h1 align="center">Nasir Khani — SRE · System Design · DataOps · AI for Ops</h1>
 <p align="center">Reliability first · Operability · Observability · Automation</p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/sre-dataops-cover.png" alt="SRE · System Design · DataOps · AI for Ops" width="880" />
-</p>
+</p> -->
 
 ---
 
